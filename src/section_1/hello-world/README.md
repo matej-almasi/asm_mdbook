@@ -97,7 +97,6 @@ of an array holding 1 or more addresses of null terminated strings.
 
 Here is a picture depicting this:
 
-```bob
 
                         +-----------------+
                         |                 |         +-------------+      
@@ -126,7 +125,6 @@ Here is a picture depicting this:
                         |                 |
                         +-----------------+
 
-```
 
 #### Explanation of "non-null"
 
