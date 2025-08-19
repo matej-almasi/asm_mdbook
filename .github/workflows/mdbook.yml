@@ -50,16 +50,17 @@ jobs:
           restore-keys: ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}-
           
       - name: Install mdBook
-        run: cargo install mdbook --no-default-features --features search --vers "^0.4" --locked
+        run: |
+          which mdbook || cargo install mdbook --no-default-features --features search --vers "^0.4" --locked
 
       - name: Install Linkcheck
-        run: cargo install mdbook-linkcheck --vers "^0.7.7" --locked
+        run: which mdbook-linkcheck || cargo install mdbook-linkcheck --vers "^0.7.7" --locked
 
       - name: Install Admonish
-        run: cargo install mdbook-admonish --vers "^1.20.0" --locked
+        run: which mdbook-admonish || cargo install mdbook-admonish --vers "^1.20.0" --locked
 
       - name: Install Svgbob
-        run: cargo install mdbook-svgbob --vers "^0.2.2" --locked
+        run: which mdbook-svgbob ||cargo install mdbook-svgbob --vers "^0.2.2" --locked
 
       - name: Build the Book
         run: mdbook build
