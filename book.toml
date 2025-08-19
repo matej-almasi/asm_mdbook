@@ -3,6 +3,7 @@ authors = ["Perry Kivolowitz", "mdbook form: Matej Almasi"]
 language = "en"
 src = "src"
 title = "A Gentle Introduction to Assembly Language Programming"
+git-repository-url = "https://github.com/matej-almasi/asm_mdbook/"
 
 [preprocessor]
 
