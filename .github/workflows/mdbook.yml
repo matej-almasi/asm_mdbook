@@ -44,12 +44,8 @@ jobs:
             ~/.cargo/registry/index/
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
-            target/
-            book
-          key: ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}-${{ hashFiles('**/Cargo.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}-
-            ${{ runner.os }}-cargo-
+            book/
+          key: ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}
           
       - name: Install MdBook and Dependencies
         run: which mdbook || cargo install mdbook --no-default-features --features search --vers "^0.4" --locked
