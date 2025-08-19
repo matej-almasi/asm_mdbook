@@ -52,6 +52,9 @@ jobs:
       - name: Install latest mdBook
         run: cargo install mdbook --no-default-features --features search --vers "^0.4" --locked
 
+      - name: Install Linkcheck
+        run: cargo install mdbook-linkcheck --vers "^0.7.7" --locked
+
       - name: Build the Book
         run: mdbook build
         
