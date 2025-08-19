@@ -47,7 +47,9 @@ jobs:
             target/
             book
           key: ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}-${{ hashFiles('**/Cargo.lock') }}
-          restore-keys: ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}-
+          restore-keys: |
+            ${{ runner.os }}-cargo-${{ steps.toolchain.outputs.cachekey }}-
+            ${{ runner.os }}-cargo-
           
       - name: Install mdBook
         run: |
