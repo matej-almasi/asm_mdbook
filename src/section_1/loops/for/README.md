@@ -2,7 +2,7 @@
 
 ## Overview
 
-We have already covered the [`if`](./if.md) and [`while`](./while.md) statements. We demonstrated that a `while` loop is nothing more than an `if` statement with one additional label preceding and one unconditional branch following the code for an `if` statement.
+We have already covered the [`if`](../../if/README.md) and [`while`](../while/README.md) statements. We demonstrated that a `while` loop is nothing more than an `if` statement with one additional label preceding and one unconditional branch following the code for an `if` statement.
 
 A `for` loop is only slightly more complex.
 

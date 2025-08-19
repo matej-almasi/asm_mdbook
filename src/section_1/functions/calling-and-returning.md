@@ -7,7 +7,7 @@ Calling *methods* (which are functions connected to objects) is similar
 but with enough differences to warrant its own discussion to be provided
 later in the chapter on [structs](../structs/using.md).
 
-Be sure to read [this](./README2.md) for information about
+Be sure to read [this](./passing-parameters.md) for information about
 passing parameters to functions.
 
 ## Bottom Line Concept

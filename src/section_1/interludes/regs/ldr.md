@@ -102,9 +102,9 @@ must be even. See the next example.
 
 Note that there is another set of registers for floating point values.
 These are pretty cool in that they support [half precision
-floats](../../section_2/float/half.md), [single precision
-floats](../../section_2/float/working.md), [double precision
-floats](../../section_2/float/working.md) and also have double double
+floats](../../../section-2/half-precision-floats.md), [single precision
+floats](../../../section-2/registers.md), [double precision
+floats](../../../section-2/registers.md) and also have double double
 precision floats (16 bytes in length)! These super big registers are
 often used when executing SIMD instructions.
 
@@ -259,7 +259,7 @@ multiplication (and division) by powers of 2.
 
 `Line 13` is the branch to the *bottom* of the loop where the decision
 code is written. We saw how this can save an instruction
-[here](../for/README.md).
+[here](../../loops/for/README.md).
 
 `Line 15` is the `ldr` instruction which performs not only the load
 (dereference) but also the *post increment* of the pointer.
@@ -380,7 +380,7 @@ SillyCopy16:
 
 ### Indexing Through An Array of `struct`
 
-You should read the chapter on `struct` found [here](../structs/alignment.md).
+You should read the chapter on `struct` found [here](../../structs/alignment.md).
 
 Here is a more elaborate case study. Given this:
 

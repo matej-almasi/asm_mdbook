@@ -309,7 +309,7 @@ source code module:
 ```
 
 This is a macro from our [Apple Linux Convergence
-Suite](../../macros/README.md).
+Suite](../../../section-4/apple-linux-convergence.md).
 
 It shows how, on Apple systems, the higher bits of the address is loaded
 from the starting address of the page on which the symbol sits and then

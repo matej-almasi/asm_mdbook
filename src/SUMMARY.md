@@ -36,7 +36,10 @@
 ---
 
 - [Section 2 - Floating Point](./section-2/README.md)
-
+  - [Chapter Overview](./section-2/chapter-overview.md)
+  - [What Are Floating Point Numbers?](./section-2/what-are-floats.md)
+  - [Registers](./section-2/registers.md)
+  - [Half Precision Floats](./section-2/half-precision-floats.md)
 ---
 
 - [Section 3 - Bit Manipulation](./section-3/README.md)
@@ -45,4 +48,6 @@
 
 - [Section 4 - More Stuff](./section-4/README.md)
   - [Apple Silicon](./section-4/apple-silicon.md)
+  - [Apple / Linux Convergence](./section-4/apple-linux-convergence.md)
+  - [Variadic Functions](./section-4/variadic-functions.md)
   - [Under the Hood: System Calls](./section-4/system-calls.md)

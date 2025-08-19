@@ -31,7 +31,7 @@ second is multiplied by 2 to the 1 and so on.
 
 The digits of the fractional part of a floating point number are
 multiplied with negative powers of 2. See [Section
-2](../section_2/float/) for more detailed information.
+2](../../section-2/README.md) for more detailed information.
 
 ## Number in Base 16 - Hexadecimal
 

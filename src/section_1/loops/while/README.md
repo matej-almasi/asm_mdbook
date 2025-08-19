@@ -2,7 +2,7 @@
 
 ## Overview
 
-We have already [covered](../if/README.md) the `if` statement. A `while`
+We have already [covered](../../if/README.md) the `if` statement. A `while`
 loop is exactly the same with the addition of at least one branch and a
 label. It really is that simple.
 
