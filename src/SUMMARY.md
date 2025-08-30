@@ -6,7 +6,6 @@
 ---
 
 - [Section 1 - From C to Assembly](./section-1/README.md)
-  - [Kickstart](./section-1/kickstart.md)
   - [Hello World](./section-1/hello-world.md)
   - [If Statements](./section-1/if/README.md)
   - [Loops](./section-1/loops/README.md)
