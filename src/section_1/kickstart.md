@@ -1,4 +1,4 @@
-# Section 1 / Kickstart
+# Kickstart
 
 In this section, we'll kickstart our exploration of AArch64 assembly
 language.

@@ -7,7 +7,7 @@
 
 - [Section 1 - From C to Assembly](./section_1/README.md)
   - [Kickstart](./section_1/kickstart.md)
-  - [Hello World](./section_1/hello-world/README.md)
+  - [Hello World](./section_1/hello-world.md)
   - [If Statements](./section_1/if/README.md)
   - [Loops](./section_1/loops/README.md)
     - [While Loops](./section_1/loops/while/README.md)
