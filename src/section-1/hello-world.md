@@ -335,7 +335,7 @@ The `while` loop has been removed. It has been replaced with explicit
 use of an `if` statement at what was the top of the loop and a `goto`
 branch at what was the bottom. This is how `while` loops are
 implemented. Now we're explicitly making this visible. For more
-information on `while` loops see [here](../loops/while/README.md)
+information on `while` loops see [here](./loops/while/README.md)
 
 ### Line 7
 
@@ -598,7 +598,7 @@ In a diagram, the results of `stp x21, x30, [sp, -16]!` looks like this:
 | larger address  | `x30` |
 
 File this information away as it makes understanding
-[variadics](../../section-4/variadic-functions.md) easier on the Apple M
+[variadics](../section-4/variadic-functions.md) easier on the Apple M
 series. Note, `variadic` functions are an advanced topic.
 
 
